@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="basePath">C:\Users\fatma\Desktop\MobiAutomation\log</Property>
+    </Properties>
+    <Appenders> <!--define appenders -->
+        <!--define Rolling file appenders -->
+
+        <RollingFile name="File" fileName="${basePath}/app.log" filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{2} -%msg%n"/>
+            <Policies> <!--define when to trigger new file in days-->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!--in days-->
+                <SizeBasedTriggeringPolicy size="1 KB"/><!--when defined size is reached-->
+            </Policies>
+        </RollingFile>
+        <!--define console appenders -->
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n"/>
+        </Console>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="File"/>
+        </Root>
+
+        <Logger Name ="LoginPageTest" level ="all" Additivity ="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger Name ="AddServiceOrder" level ="all" Additivity ="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+    </Loggers>
+</Configuration>
+
+        <!--Additivity is set to true by default, that is children inherit the appenders of their ancestors
+         by default. If this variable is set to false then the appenders found in the ancestors of this logger
+         are not used. However, the children of this logger will inherit its appenders, unless the children have
+         their additivity flag set to false too. See the user manual for more details.-->
