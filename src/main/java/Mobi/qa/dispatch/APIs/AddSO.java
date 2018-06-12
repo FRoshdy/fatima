@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 /**
  * Created by fatma on 5/24/2018.
  */
-public class GetEndPoint extends TestBase {
+public class AddSO extends TestBase {
 
 @Test
     public void TestGet1()

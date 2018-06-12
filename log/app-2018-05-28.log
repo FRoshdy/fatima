@@ -1,18 +1,18 @@
-01:12:26.674 INFO  base.TestBase -get prp
-01:12:31.223 INFO  base.TestBase -found
-01:12:31.238 INFO  base.TestBase -get prp
-01:12:31.562 DEBUG util.WebEventListener -Before navigating to: 'https://stage-dispatch.mobicorp.com/'
-01:12:36.292 INFO  base.TestBase -get prp
-01:12:40.047 INFO  base.TestBase -found
-01:12:40.047 INFO  base.TestBase -get prp
-01:12:40.294 DEBUG util.WebEventListener -Before navigating to: 'https://stage-dispatch.mobicorp.com/'
-01:12:44.679 INFO  base.TestBase -get prp
-01:12:44.681 DEBUG util.WebEventListener -Trying to find Element By : By.xpath: .//*[@id='root']/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/p
-01:13:04.711 ERROR util.WebEventListener -Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='root']/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/p
+01:44:22.770 INFO  base.TestBase -get prp
+01:44:27.410 INFO  base.TestBase -found
+01:44:27.430 INFO  base.TestBase -get prp
+01:44:27.916 DEBUG util.WebEventListener -Before navigating to: 'https://stage-dispatch.mobicorp.com/'
+01:44:32.386 INFO  base.TestBase -get prp
+01:44:36.150 INFO  base.TestBase -found
+01:44:36.150 INFO  base.TestBase -get prp
+01:44:37.980 DEBUG util.WebEventListener -Before navigating to: 'https://stage-dispatch.mobicorp.com/'
+01:44:42.264 INFO  base.TestBase -get prp
+01:44:42.265 DEBUG util.WebEventListener -Trying to find Element By : By.linkText: https://stage-dispatch.mobicorp.com/overview/summary?collapsed=true&notificationsCategory=all&alert=techInDanger
+01:45:02.286 ERROR util.WebEventListener -Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: https://stage-dispatch.mobicorp.com/overview/summary?collapsed=true&notificationsCategory=all&alert=techInDanger
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'LAPTOP-H704QGFK', ip: '192.168.43.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\fatma\AppData\Local\Temp\rust_mozprofile.TXWjk3CM5j5f, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=10.0, moz:processID=9536, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: fe06da19-be04-430d-8b79-49c0e0ab1110
-*** Element info: {Using=xpath, value=.//*[@id='root']/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/p}
+Capabilities [{moz:profile=C:\Users\fatma\AppData\Local\Temp\rust_mozprofile.c3TTBQFbAfrQ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=10.0, moz:processID=10832, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: afbe0cf1-52ce-4ce0-ae63-d464da550e3e
+*** Element info: {Using=link text, value=https://stage-dispatch.mobicorp.com/overview/summary?collapsed=true&notificationsCategory=all&alert=techInDanger}

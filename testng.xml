@@ -9,7 +9,7 @@
 
 	<test name="Dispatch Test Cases">
 		<classes>
-			<class name="Mobi.qa.dispatch.testcases.TechInDangerlistTest"></class>
+			<class name="Mobi.qa.dispatch.testcases.LoginPageTest"></class>
 
 
 		</classes>
